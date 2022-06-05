@@ -5,9 +5,9 @@ import com.danilorocha.sid.domain.notification.NotificadorEmail;
 import com.danilorocha.sid.domain.notification.NotificadorProperties;
 import com.danilorocha.sid.domain.notification.TipoDeNotificador;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 @Configuration /*esta anotação também é um componente Spring, mas com objetivo
  claro de definir beans*/
@@ -33,6 +33,7 @@ public class NotificadorEmailConfig {
     private NotificadorProperties properties;
 
     //@Qualifier("Email") define que este Bean tem prioridade, pode ser usado aqui ou no atributo
+    @Primary
     @TipoDeNotificador(NivelUrgencia.URGENTE)
     @Bean /*esta anotação indica que o método é responsável por instanciar e
     configurar um novo objeto que será gerenciado pelo container do Spring*/
