@@ -1,4 +1,4 @@
-package com.danilorocha.sid.models;
+package com.danilorocha.sid.domain.models;
 
 import lombok.Getter;
 

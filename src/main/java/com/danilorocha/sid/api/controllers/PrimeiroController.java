@@ -1,7 +1,7 @@
-package com.danilorocha.sid.controllers;
+package com.danilorocha.sid.api.controllers;
 
-import com.danilorocha.sid.models.Cliente;
-import com.danilorocha.sid.services.AtivacaoClienteService;
+import com.danilorocha.sid.domain.models.Cliente;
+import com.danilorocha.sid.domain.services.AtivacaoClienteService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

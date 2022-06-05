@@ -1,13 +1,13 @@
-package com.danilorocha.sid.notification;
+package com.danilorocha.sid.domain.notification;
 
-import com.danilorocha.sid.models.Cliente;
+import com.danilorocha.sid.domain.models.Cliente;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 //@Primary define que este Bean tem prioridade
 @Profile("prod") /* esta anotação define o perfil adotado pela aplicaçao, que neste
 caso é de produção */
-@TipoDeNotificador(NivelUrgencia.URGENTE)
+@TipoDeNotificador(NivelUrgencia.NORMAL)
 @Component
 public class NotificadorSMS implements Notificador {
 

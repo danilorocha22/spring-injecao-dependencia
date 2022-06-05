@@ -1,4 +1,4 @@
-package com.danilorocha.sid.notification;
+package com.danilorocha.sid.domain.notification;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 

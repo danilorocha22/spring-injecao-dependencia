@@ -1,6 +1,6 @@
-package com.danilorocha.sid.notification;
+package com.danilorocha.sid.domain.notification;
 
-import com.danilorocha.sid.models.Cliente;
+import com.danilorocha.sid.domain.models.Cliente;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 

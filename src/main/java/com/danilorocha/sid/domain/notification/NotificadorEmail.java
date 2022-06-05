@@ -1,6 +1,6 @@
-package com.danilorocha.sid.notification;
+package com.danilorocha.sid.domain.notification;
 
-import com.danilorocha.sid.models.Cliente;
+import com.danilorocha.sid.domain.models.Cliente;
 
 //@Component //esta anotação foi comentada pq foi criada a classe de configuração SidConfig
 //que vai gerenciar o bean desta classe
